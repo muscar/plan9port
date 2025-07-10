@@ -5,6 +5,7 @@ usegcc()
 {
 	cc=${CC9:-gcc}
 	cflags=" \
+		-std=gnu17 \
 		-O2 \
 		-c \
 		-Wall \
